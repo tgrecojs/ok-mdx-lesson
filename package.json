@@ -1,17 +1,24 @@
 {
   "name": "mdx-cli-lesson",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Code for egghead.io lesson on using ok-mdx command line tool.",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "mdx docs",
+    "build": "mdx build docs"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgrecojs/ok-mdx-lesson.git"
+  },
+  "author": "Thomas Greco",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgrecojs/ok-mdx-lesson/issues"
+  },
+  "homepage": "https://github.com/tgrecojs/ok-mdx-lesson#readme",
   "dependencies": {
     "@emotion/core": "^10.0.9",
     "@emotion/styled": "^10.0.9"
